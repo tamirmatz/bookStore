@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: IMPACT;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(1, 198, 162);
+    padding: 1rem;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(1, 198, 162);
+    padding: 2rem;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.book-preview {
+    margin: 20px;
+    height: 300px;
+    width: 200px;
+    cursor: pointer;
+    background-color: rgb(1, 198, 162);
+    border-radius: 5px;
+    box-shadow: 10px 10px 52px 0px rgba(0, 0, 0, 0.39);
+}
+
+.book-preview img {
+    height: 200px;
+}
+
+.book-details {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.book-details img {
+    height: 400px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.red-price {
+    color: red;
+}
+
+.green-price {
+    color: green;
+}
+
+.clean-list {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app-header ul {
+    display: flex;
+    margin-left: 20px;
+}
+
+.app-header li {
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.home {
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 70px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+}
+
+.review {
+    background-color: rgb(1, 198, 162);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.active {
+    color: white;
+}
+
+.review-form-item {
+    margin: 0.3rem;
+}
+
+.reviews li .delete-review {
+    text-align: right;
+}
+
+.user-msg {
+    position: fixed;
+    margin-top: 10rem;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: solid 1px black;
+}
+
+.success {
+    background-color: lightgreen;
+}
+
+.danger {
+    background-color: lightcoral;
+}
+
+.api-list {
+    text-align: center;
+}
+
+#book-add-search {
+    margin-top: 50px;
+    text-align: center;
+}
